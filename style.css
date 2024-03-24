@@ -1,0 +1,213 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Color:#50b7f5;
+    --BackgroundColor:#e6ecf0;
+}
+body{
+    display: flex;
+    height: 100%;
+    max-width: 93rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 1.5rem;
+}
+.sidebar-options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-options .material-icons, .fa-twitter{
+    padding: 1rem;
+}
+.sidebar-options h2{
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+} 
+.sidebar-options:hover{
+    background-color: var(--BackgroundColor);
+    border-radius: 2.2rem;
+    color: var(--Color);
+    transition: color 3ms ease-out;
+}
+.sidebar-options.active{
+    color: var(--Color);
+}
+.sidebar-tweet{
+    width: 100%;
+    background-color: var(--Color);
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 2.2rem;
+    height: 4rem;
+    margin-top: 1.2rem;
+}
+.sidebar{
+    border-right: 0.1rem solid var(--BackgroundColor);
+    flex: 0.2;
+    min-width: 18rem;
+    margin-top: 1.2rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.fa-twitter{
+    color:var(--Color);
+    font-size: 2.1rem;
+}
+
+ /* Feeds styling start */
+ .feeds{
+    flex: 0.5;
+    border-right: 0.1rem solid var(--BackgroundColor);
+    min-width: fit-content;
+    overflow-y: scroll;
+ }
+ .feeds-header{
+    position: sticky;
+    top: 0;
+    background-color: #ffff;
+    z-index: 100;
+    border: 0.1rem solid var(--BackgroundColor);
+    padding: 1.1rem 1.3rem;
+ }
+ .feeds-header h2{
+    font-weight: 700;
+    font-size: 1.3rem;
+ }
+ .feeds::-webkit-scrollbar{
+    display: none;
+ }
+ .feeds {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+ }
+ /* Tweet-box styling starts */
+ .tweet-box-input img{
+    height: 3.8rem;
+ }
+ .tweet-box{
+    padding-bottom: 0.7rem;
+    border-bottom: 0.4rem solid var(--BackgroundColor);
+    padding-right:0.7rem;
+ }
+ .tweet-box form{
+    display: flex;
+    flex-direction: column;
+ }
+ .tweet-box-input{
+    display: flex;
+    padding: 1.3rem;
+ }
+ .tweet-box-input input{
+    flex: 1;
+    margin-left: 1.3rem;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+ }
+ .tweet-box-tweet-button{
+    background-color: var(--Color);
+    border: none;
+    border-radius: 2.1rem;
+    color: #fff;
+    font-weight: 900;
+    width: 5.5rem; 
+    height:2.8rem ;
+    margin-top: 1.3rem;
+    margin-left: auto;
+  
+ }
+  /* Tweet-box styling ends */
+  /* Post styling start */
+  .post-section-avatar img{
+    border-radius: 50% ;
+    height: 2.8rem;
+  }
+  .post-body img{
+    width: 28rem;
+    object-fit: contain;
+    border-radius: 1.3rem;
+    border: 0.1rem var(--Color) solid;
+    height: 40vh;
+  }
+  .post-section{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--BackgroundColor);
+    padding-bottom: 0.9rem;
+  }
+  .post-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+  }
+  .verified{
+    font-size: 1rem !important;
+    color: var(--Color);
+    margin-right: 0.5rem;
+  }
+  .special{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: gray;
+  }
+  .post-header-text h3{
+    font-weight: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .post-header-description{
+    margin-bottom: 0.7rem;
+    font-size: 1.1rem;
+  }
+  .post-body{
+    flex: 1;
+    padding: 0.7rem;
+  }
+.post-section-avatar{
+    padding: 20px;
+  }
+    /* Post styling ends */
+  /* Feeds styling ends */
+  /* widgets styling starts */
+.widgets{
+    flex: 0.3;
+}
+.widgets-input{
+    display: flex;
+    align-items: center;
+    background-color: var(--BackgroundColor);
+    padding: 1.3rem;
+    border-radius: 2.3rem;
+    margin-top: 1.3rem;
+    margin-left: 2.3rem;
+}
+.widgets-input input{
+    border: none;
+    background-color: var(--BackgroundColor);
+    outline: none;
+}
+.widgets .widgets-searchIcon{
+    color: gray;
+}
+.widget-container{
+    margin-top: 1.1rem;
+    margin-left:0.5rem;
+    padding: 0.7rem;
+    background-color: #f5f8fa;
+    border-radius: 2.3rem;
+}
+.widget-container h2{
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+/* widgets styling starts */
+
+
+
+

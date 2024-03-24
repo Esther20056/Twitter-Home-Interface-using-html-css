@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Twitter Home Page</title>
+     <link rel="stylesheet" href="./style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+     <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
+</head> 
+<body>
+    <!-- Sidebar start here -->
+ <div class="sidebar">
+   <i class="fab fa-twitter"></i>
+   <div class="sidebar-options active">
+     <i class="material-icons">home</i>
+     <h2>Home</h2>
+   </div>
+  <div class="sidebar-options">
+    <i class="material-icons">search</i>
+    <h2>Explore</h2>
+  </div>
+  <div class="sidebar-options">
+    <i class="material-icons">notifications_none</i>
+    <h2>Notification</h2>
+  </div>
+  <div class="sidebar-options">
+    <i class="material-icons">mail_outline</i>
+    <h2>Messages</h2>
+  </div>
+  <div class="sidebar-options">
+    <i class="material-icons">bookmark_border</i>
+    <h2>Bookmarks</h2>
+  </div>
+  <div class="sidebar-options">
+    <i class="material-icons">list_alt</i>
+    <h2>Lists</h2>
+  </div>
+  <div class="sidebar-options">
+    <i class="material-icons">perm_identity</i>
+    <h2>Profile</h2>
+  </div>
+  <div class="sidebar-options">
+    <i class="material-icons">more_horiz</i>
+    <h2>More</h2>
+  </div>
+  <button class="sidebar-tweet">Tweet</button>
+ </div>
+   <!-- Sidebar ends here -->
+   <!-- Feed start here -->
+   <div class="feeds">
+    <div class="feeds-header">
+        <h2>Home</h2>
+    </div>
+    <!-- tweet-box start -->
+    <div class="tweet-box">
+        <form>
+            <div class="tweet-box-input">
+                <img src="./Assets/female-avatar-removebg-preview.png" alt="">
+                <input type="text" placeholder="What's happening">
+            </div>
+            <button class="tweet-box-tweet-button" >Tweet</button>
+        </form>
+    </div>
+    <!-- tweet-box ends -->
+
+    <!-- Post section starts -->
+    <div class="post-section">
+      <div class="post-section-avatar">
+        <img src="./Assets/female-avatar-removebg-preview.png" alt="">
+      </div>
+      <div class="post-body">
+        <div class="post-header">
+          <div class="post-header-text">
+            <h3>LOLA234
+               <span class="special">
+                <i class="material-icons verified"> verified </i>@lolakitchen.com
+               </span>
+            </h3>
+          </div>
+             <div class="post-header-description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus.</p>
+             </div>
+        </div>
+        <img src="./Assets/organic-bell-pepper-1-900x560.jpg" alt="">
+        <div class="post-footer">
+          <i class="material-icons">repeat</i>
+          <i class="material-icons">favorite_border</i>
+          <i class="material-icons">publish</i>
+        </div>
+      </div>
+    </div>
+        <!-- Post section ends -->
+
+        <div class="post-section">
+          <div class="post-section-avatar">
+            <img src="./Assets/female-avatar-removebg-preview.png" alt="">
+          </div>
+          <div class="post-body">
+            <div class="post-header">
+              <div class="post-header-text">
+                <h3>LOLA234
+                   <span class="special">
+                    <i class="material-icons verified"> verified </i>@lolakitchen.com
+                   </span>
+                </h3>
+              </div>
+                 <div class="post-header-description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus.</p>
+                 </div>
+            </div>
+            <img src="./Assets/organic-bell-pepper-1-900x560.jpg" alt="">
+            <div class="post-footer">
+              <i class="material-icons">repeat</i>
+              <i class="material-icons">favorite_border</i>
+              <i class="material-icons">publish</i>
+            </div>
+          </div>
+        </div>
+            <!-- Post section ends -->
+   </div>
+     <!-- Feed ends here -->
+                 <!-- Widget starts -->
+                 <div class="widgets">
+                  <div class="widgets-input">
+                    <i class="material-icons widgets-searchIcon">search</i>
+                    <input type="text" placeholder="Search Twitter">
+                  </div>
+                  <div class="widget-container">
+                    <h2>What's happening</h2>
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote>
+                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+                </div>
+                 <!-- Widget ends -->
+</body>
+</html>
